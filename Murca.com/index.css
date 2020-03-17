@@ -1,0 +1,55 @@
+body {
+	background: #000000;
+}
+.text{
+	width: 500;
+	font-size: 19;
+	color: black;
+	font-size: 16;
+	position: absolute; /* Абсолютное позиционирование */
+    left: 100px; /* Положение от левого края */
+    background: #fc3;	
+}
+#h1text{
+	position: absolute;
+	top: 130px;
+}
+#moy_div{
+	border: 10px double black;
+	color: purple;
+	font-size: 21;
+	height: 100px; /* Высота блока */
+    width: 200px; /* Ширина блока */
+    overflow: auto; /* Добавляем полосы прокрутки */
+    padding-left: 15px; /* Отступ от текста слева */
+    background: url(test.jpg) repeat-y #fc0;
+}
+
+#moy_text{
+	color: green;
+	font-size: 16;
+	position: absolute; /* Абсолютное позиционирование */
+    left: 200px;
+}
+
+#first_p {
+	color: black;
+	font-size: 16;
+	position: absolute; /* Абсолютное позиционирование */
+    left: 30%; /* Положение от левого края */
+    background: #fc3; /* Цвет фона */
+}
+
+#moya_kartinka{
+	border: 10px double black;
+	width: 300;
+	position: absolute; /* Абсолютное позиционирование */
+    left: 77%;
+
+}
+#date_text{
+	border: 10px double black;
+	color: #b7ff00;
+	font-size: 20px;
+
+}
